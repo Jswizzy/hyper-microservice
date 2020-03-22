@@ -1,0 +1,59 @@
+POST http://localhost:8080/echo
+Content-Type: application/json
+
+{
+  "text": "Hi"
+}
+
+###
+
+POST http://localhost:8080/echo
+Content-Type: text/plain
+
+hello world!
+
+###
+
+POST http://localhost:8080/echo/uppercase
+Content-Type: application/json
+
+{
+  "text": "Hi"
+}
+
+###
+
+POST http://localhost:8080/echo/uppercase
+Content-Type: text/plain
+
+hello world!
+
+###
+
+POST http://localhost:8080/echo/reverse
+Content-Type: application/json
+
+{
+  "text": "Hi"
+}
+
+###
+
+POST http://localhost:8080/echo/reverse
+Content-Type: text/plain
+
+hello world!
+
+###
+
+POST http://localhost:8080/user/
+
+###
+
+DELETE http://localhost:8080/user/1
+
+###
+
+GET http://localhost:8080/users
+
+###
